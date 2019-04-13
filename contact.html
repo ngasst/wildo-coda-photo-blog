@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact</title>
+        <link rel = "stylesheet" type = "text/css" media = "screen" href = "./assets/style.css" >
+    </head>
+    <body>
+        <header>
+            <h1>Talk to me</h1>
+            <p>Here you can give me your comments, suggest your idea, encouragements (yes, it never hurts). Be sure that your email isn't going to the inbox abyss, never to be seen or heard form again.</p>
+        </header>
+        <section>
+            <h2>Introduce yourself</h2>
+            <form action = "action.js" method = "GET">
+                <input id = "pseudoNameInput" type = "text" name = "pseudoname" placeholder = "poisson.fecond">
+                <input id = "emailInput" type = "email" name = "email" placeholder = "poisson.fecond@ocean.com">
+                <select name = "subject">
+                    <option value = "comment">Comments/Opinion</option>
+                    <option value = "suggestion">Suggestions</option>
+                    <option value = "other">Something else</option>
+                </select>
+                <label for = "message">The description of the category chosen</label>
+                <textarea id = "message" name = "message" cols="100" rows = "50" required>Feel free !</textarea>
+            </form>
+        </section>
+    </body>
+</html>
