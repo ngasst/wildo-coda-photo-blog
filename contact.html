@@ -1,28 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <title>Contact</title>
-        <link rel = "stylesheet" type = "text/css" media = "screen" href = "./assets/style.css" >
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" media="screen" href="./assets/style.css">
     </head>
+
     <body>
-        <header>
-            <h1>Talk to me</h1>
-            <p>Here you can give me your comments, suggest your idea, encouragements (yes, it never hurts). Be sure that your email isn't going to the inbox abyss, never to be seen or heard form again.</p>
+        <header> 
+            <nav class="header">
+                <img src="./images/burger-menu.svg" alt="burger menu">
+                <h1>WILDO CODA PHOTO BLOG : the beauty of Brussels</h1>
+            </nav>
         </header>
-        <section>
-            <h2>Introduce yourself</h2>
-            <form action = "action.js" method = "GET">
-                <input id = "pseudoNameInput" type = "text" name = "pseudoname" placeholder = "poisson.fecond">
-                <input id = "emailInput" type = "email" name = "email" placeholder = "poisson.fecond@ocean.com">
-                <select name = "subject">
-                    <option value = "comment">Comments/Opinion</option>
-                    <option value = "suggestion">Suggestions</option>
-                    <option value = "other">Something else</option>
-                </select>
-                <label for = "message">The description of the category chosen</label>
-                <textarea id = "message" name = "message" cols="100" rows = "50" required>Feel free !</textarea>
-            </form>
+        <section id="contact-header" class="container">
+            <h1 class="font">Contact me</h1>
+            <p class="font">Here you can give me your comments, suggest ideas, encouragements (yes, it never hurts). Be sure
+                that your email isn't going to the inbox abyss, never to be seen or heard form again.</p>
+            <a class="ct-btn-scroll ct-js-btn-scroll" href="#form"><div id="arrow-icon-container"></div></a>
         </section>
+        <div class="container">
+            <section id="form" class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h2>Your information</h2>
+                    <form action="action.js" method="GET">
+                        <div class="form-group">
+                            <label for="pseudoNameInput">My pseudo</label>
+                            <input id="pseudoNameInput" class="form-control" type="text" name="pseudoname"
+                                placeholder="poisson.fecond">
+                        </div>
+                        <div class="form-group">
+                            <label for="emailInput">My email</label>
+                            <input id="emailInput" class="form-control" type="email" name="email"
+                                placeholder="poisson.fecond@ocean.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subjectSelection">Theme</label>
+                            <select class="form-control" name="subject" id="subjectSelection">
+                                <option value="comment" selected>Comments/Opinion</option>
+                                <option value="suggestion">Suggestions</option>
+                                <option value="other">Something else</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="messageInput">Your message</label>
+                            <textarea id="messageInput" class="form-control" name="message" rows="3"
+                                required>Feel free !</textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../scrolldown.js"></script>-->
     </body>
+
 </html>
