@@ -1,3 +1,52 @@
+.header-title {
+    display: flex;
+    width: 100%;
+}
+.header-title h1{
+    text-align: center;
+    width: 100%;
+}
+.sub-header {
+    text-align: center;
+    width: 100%;
+}
+
+.blog-img{
+    position: relative;
+    min-width: 350px;
+    min-height: 300px;
+}
+
+.img {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    padding: 20px;
+    display: block;
+}
+
+.img-description {
+    position: absolute;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    display: none;
+}
+
+.blog-img:hover .img-description {
+    display: block;
+}
+.blog-img:hover .img {
+    opacity: 0.5;
+}
+
+.img-description h2{
+    color: white;
+}
+.img-description p{
+    color: white;
+}
+
 body {
       background-color: rgb(250, 250, 250);
 }
@@ -184,3 +233,4 @@ body {
 .container{
     margin-top: 50px;
 }
+
