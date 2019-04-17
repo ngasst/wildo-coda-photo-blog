@@ -1,3 +1,4 @@
+/* article.html part */
 .galery-img {
     width: 200px;
 
@@ -50,7 +51,8 @@
     
 
 }
-=======
+
+/* index.html part */
 .header-title {
     display: flex;
     width: 100%;
@@ -99,7 +101,8 @@
 .img-description p{
     color: white;
 }
-=======
+
+/* contact.html part */
 body {
       background-color: rgb(250, 250, 250);
 }
@@ -248,7 +251,8 @@ body {
     font-weight: bold;
     text-align: center;
 }
-=======
+
+/* about-us.html part */
 /*
 #carouselSlide{
     position: absolute;
