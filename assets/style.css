@@ -281,12 +281,44 @@ body {
 
 
 .titre{
-    text-align: center;
-    font-size: 2rem;
+
+    font-size: 2.5rem;
 }
 
-
+.row{
+    margin-top: 30px;
+    text-align: justify;
+}
 
 .container{
-    margin-top: 50px;
+    margin-top: 80px;
+}
+ 
+.premier .lettrine{
+    float: left; 
+    text-shadow:3px 3px 3px silver;  
+    font-size: 4em;  
+    line-height: 80%; 
+    margin:-.1em 0px;
+    padding-right: .1em;
+
+    }
+.photographe .image2{
+width: 40%;
+height: 40%;
+float: right;
+shape-outside: cross-fade();
+margin-left: 15px;
+margin-top: 5px; 
+}
+.background{
+    background-color: black;
+}
+.textFooter{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.logo{
+    text-align: center;
 }
