@@ -3,3 +3,29 @@
 @import './style-article.css';
 @import './style-contact.css';
 @import './style-aboutus.css';
+
+.carousel-inner {
+    height : 250px;
+}
+
+.carousel-item {
+    height : 250px;
+}
+
+#carousel-1 {
+    height : 250px;
+    background-image: url(./images/BXX.jpg);
+    background-size:  100% 250px; 
+}
+
+#carousel-2 {
+    height : 250px;
+    background-image: url(./images/BX1.png);
+    background-size: 100% ; 
+}
+
+#carousel-3 {
+    height : 250px;
+    background-image: url(./images/BX2.png);
+    background-size: 100% 250px; 
+}
