@@ -349,3 +349,47 @@ body {
     opacity: 0.8;
     line-height: 1.8;
 }
+/*
+#carouselSlide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+}*/
+
+.carousel-inner {
+    height : 250px;
+}
+
+.carousel-item {
+    height : 250px;
+}
+
+#carousel-1 {
+    height : 250px;
+    background-image: url(./images/BX.png);
+    background-size: 100% 250px; 
+}
+
+#carousel-2 {
+    height : 250px;
+    background-image: url(./images/BX1.png);
+    background-size: 100% ; 
+}
+
+#carousel-3 {
+    height : 250px;
+    background-image: url(./images/BX2.png);
+    background-size: 100% 250px; 
+}
