@@ -10,20 +10,31 @@
 
     <body>
         <header class="container">
-            <div class="header-title">
-                <img src="./assets/images/burger-menu.svg" alt="burger menu">
-                <h1>WILDO CODA PHOTO BLOG</h1>
+            <div id="header">
+                <div class="header-title" id="myLinksParent">
+                    <button id="headerButton" onmouseover="burgerMenuOver()" onmouseout="burgerMenuOut()" onclick="burgerMenuClick()"><img src="./assets/images/burger-menu.svg" alt="burger menu"></button>
+                    <div id="myLinks">
+                        <a href="./index.html" onmouseover="burgerMenuOver()" onmouseout="burgerMenuOut()"><div class="sub-link">Home</div></a>
+                        <a href="./category.html" onmouseover="burgerMenuOver()" onmouseout="burgerMenuOut()"><div class="sub-link">Category</div></a>
+                        <a href="./contact.html" onmouseover="burgerMenuOver()" onmouseout="burgerMenuOut()"><div class="sub-link">Contact</div></a>
+                        <a href="./about-us.html" onmouseover="burgerMenuOver()" onmouseout="burgerMenuOut()"><div class="sub-link">About us</div></a>
+                    </div>
+                </div>
+                <div id="titles">
+                    <h1>WILDO CODA PHOTO BLOG</h1>
+                    <div class="sub-header">
+                        <h2>The beauty of Brussels</h2>
+                        <p>This is the introduction of the photo blog - city of Brussels</p>
+                    </div>
+                </div>
             </div>
-            <div class="sub-header">
-                <h2>The beauty of Brussels</h2>
-                <p>This is the introduction of the photo blog - city of Brussels</p>
-             </div>
+            
         </header>
         <section id="contact-header" class="container">
             <h1 class="font">Contact me</h1>
             <p class="font">Here you can give me your comments, suggest ideas, encouragements (yes, it never hurts). Be sure
                 that your email isn't going to the inbox abyss, never to be seen or heard form again.</p>
-            <a class="ct-btn-scroll ct-js-btn-scroll" href="#form"><div id="arrow-icon-container"></div></a>
+            <a href="#form"><div id="arrow-icon-container"></div></a>
         </section>
         <div class="container">
             <section id="form" class="row">
@@ -58,8 +69,9 @@
                 </div>
             </section>
         </div>
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="../scrolldown.js"></script>-->
+        <script src="./assets/burgermenu.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <!-- <script src="./assets/scrolldown.js"></script> -->
     </body>
 
 </html>
