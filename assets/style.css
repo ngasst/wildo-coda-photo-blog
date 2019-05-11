@@ -29,3 +29,43 @@
     background-image: url(./images/BX2.png);
     background-size: 100% 250px;
 }
+
+/* 
+CSS FOR MENU
+*/
+
+#nav-menu {
+    margin: 0;
+    max-height: 32px;
+}
+
+.menu-container {
+    background-color: rgba(57, 60, 60, 0.95);
+    transition: opacity 300ms ease-in-out;
+    list-style-type: none;
+    display: flex !important;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    font-size: 1rem;
+    border-radius: 2px;
+}
+
+.menu-container li {
+    width: 100%;
+    text-align: left;
+    border-bottom: solid rgba(200, 200, 200, 0.125) thin;
+    padding-bottom: 0.25rem;
+}
+
+.menu-container li:last-of-type {
+    border-bottom: none;
+}
+
+.menu-container a {
+    color: #cc6869;
+}
+.menu-container a:hover {
+    color: rgb(242, 188, 188);
+}
