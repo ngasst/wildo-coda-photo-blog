@@ -1,0 +1,73 @@
+.galery-box{
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+p.intro{
+font-style: italic;
+}
+
+.content-article{
+padding: 1rem;
+border-radius: 10px;
+margin-bottom: 1rem;
+border: 1px solid rgb(221, 221, 221);
+}
+
+.box{
+padding: 1rem;
+background-color: rgb(230, 232, 237);
+
+}
+.galery-img {
+width: 12.5rem;
+}
+
+.banner-img {
+width: 62.5rem;
+border-radius: 10px;
+margin-bottom: 1rem;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+.galery-container {
+width: 62.5rem;
+padding: 1rem;
+}
+
+.galery-card {
+width: 15.625rem;
+opacity: 0.8;
+}
+
+.text-over-img {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.title-block {
+position: absolute;
+width: 30rem;
+
+background-color: grey;
+color: white;
+padding-left: 1.25rem;
+padding-right: 1.25rem;
+opacity: 0.8;
+}
+
+.img-text {
+position: absolute;
+width: 6.25rem;
+top: 50%;
+left: 10%;
+font-size: 1.25rem;
+color: whitesmoke;
+}

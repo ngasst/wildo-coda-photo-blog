@@ -1,0 +1,116 @@
+.history {
+    text-align: justify;
+    display: block;
+  
+}
+
+.titre {
+    font-size: 2.5rem;
+    
+}
+
+.row {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.premier .lettrine {
+    float: left;
+    font-size: 4em;
+    line-height: 80%;
+    margin: -0.1em 0px;
+    padding-right: 0.1em;
+}
+.photographe .image2 {
+    width: 40%;
+    height: 40%;
+    float: right;
+    shape-outside: cross-fade();
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.background {
+    background-color: black;
+}
+.textFooter {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+  
+}
+.logo {
+    text-align: center;
+}
+
+.container-card-1 .card-1 .img-box img {
+    max-width: 100%;
+    opacity: 0.7;
+}
+
+.container-card-1:hover .card-1 .img-box img {
+    opacity: 1;
+}
+
+.container-card-1:hover .card-1 .img-box .details-no-hover {
+    opacity: 0;
+}
+
+.details-no-hover h3 {
+    border-radius: 25px;
+    background-color: #fff;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin: 30px;
+    vertical-align: middle;
+    opacity: 0.8;
+    line-height: 1.8;
+}
+/*
+#carouselSlide{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}*/
+
+.carousel-inner {
+    height : 250px;
+}
+
+.carousel-item {
+    height : 250px;
+}
+
+#carousel-1 {
+    height : 250px;
+    background-image: url(./images/BX.png);
+    background-size: 100% 250px; 
+}
+
+#carousel-2 {
+    height : 250px;
+    background-image: url(./images/BX1.png);
+    background-size: 100% ; 
+}
+
+#carousel-3 {
+    height : 250px;
+    background-image: url(./images/BX2.png);
+    background-size: 100% 250px; 
+}

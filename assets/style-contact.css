@@ -1,0 +1,186 @@
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+#header {
+    display: flex;
+}
+
+#myLinksParent {
+    width: 25%;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 5%;
+}
+
+#myLinks {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 5% 5% 0;
+}
+
+#myLinks a {
+    text-decoration: none;
+}
+
+.sub-link {
+    padding: 2%;
+    color: rgb(255, 255, 255);
+}
+
+.sub-link:hover {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 10px;
+}
+
+#contact-header {
+  background-image: url(./images/contact-us-01.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+#contact-header h1,
+#contact-header p {
+    position: absolute;
+}
+
+#arrow-icon-container {
+    position: absolute;
+    border: solid 1px rgb(221, 221, 221);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-image: url(../assets/images/down-arrow-icon.png);
+    background-size: cover;
+}
+
+#arrow-icon-container:hover {
+    box-shadow: 0px 0px 5px rgb(221, 221, 221);
+}
+
+@media (min-width: 350px) {
+    #contact-header {
+        height: 10em;
+        margin-bottom: 2%;
+    }
+    #contact-header h1 {
+        top: 4%;
+        right: 35%;
+        font-size: 1.5rem;
+    }
+    #contact-header p {
+        top: 22%;
+        font-size: 0.6rem;
+    }
+    #arrow-icon-container {
+        top: 50%;
+        right: 48%;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 576px) {
+    #contact-header {
+        height: 20em;
+        margin-bottom: 2%;
+    }
+    #contact-header h1 {
+        top: 4%;
+        right: 35%;
+        font-size: 2rem;
+    }
+    #contact-header p {
+        top: 15%;
+        font-size: 0.7rem;
+    }
+    #arrow-icon-container {
+        top: 26%;
+        right: 48%;
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (min-width: 768px) {
+    #contact-header {
+        height: 20em;
+        margin-bottom: 2%;
+    }
+    #contact-header h1 {
+        top: 7%;
+        right: 38%;
+        font-size: 2.1rem;
+    }
+    #contact-header p {
+        top: 20%;
+        font-size: 0.8rem;
+    }
+    #arrow-icon-container {
+        top: 33%;
+        right: 48%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    #contact-header {
+        height: 30em;
+        margin-bottom: 2%;
+    }
+    #contact-header h1 {
+        top: 10%;
+        right: 40%;
+        font-size: 2.5rem;
+    }
+    #contact-header p {
+        position: absolute;
+        top: 20%;
+        font-size: 1rem;
+    }
+    #arrow-icon-container {
+        top: 33%;
+        right: 48%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #contact-header {
+        height: 40em;
+        margin-bottom: 2%;
+    }
+    #contact-header h1 {
+        top: 10%;
+        right: 40%;
+        font-size: 2.5rem;
+    }
+    #contact-header p {
+        top: 20%;
+        font-size: 1rem;
+    }
+    #arrow-icon-container {
+        top: 33%;
+        right: 48%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.font {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+}
